@@ -10,7 +10,7 @@ public class NonlinearFuncTests: XCTestCase
         
         do
         {
-            try nonlinearFunc.solve(x: 7, e: 0.001)
+            try nonlinearFunc.solve(x: 7, e: 0.001);
         }
         catch
         {
@@ -19,7 +19,7 @@ public class NonlinearFuncTests: XCTestCase
         
         do
         {
-            try nonlinearFunc.solve(solutionMethod: NonlinearFunc.SolutionMethod.Chord, x0: 1, x1: 2, e: 0.001)
+            try nonlinearFunc.solve(solutionMethod: NonlinearFunc.SolutionMethod.Chord, x0: 1, x1: 2, e: 0.001);
         }
         catch
         {
